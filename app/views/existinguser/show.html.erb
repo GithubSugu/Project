@@ -1,0 +1,29 @@
+<h1>Listing teams</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>EmpId</th>
+    <th>Contactno</th>
+	<th>EmailID</th>
+	<th>DOB</th>
+	<th>ATTUID </th>
+	<th>GitHubID </th>
+	<th>APIGEE_ID </th>
+	<th>Foundry_ID </th>
+  </tr>
+
+<% @blackflag.each do |team| %>
+  <tr>
+    <td><%=h team.EmpID %></td>
+    <td><%=h team.Name %></td>
+    <td><%=h team.ContactNum %></td>
+	<td><%=h team.MailID%></td>
+	<td><%h team.DOB%></td>
+	<td><%=h team.ATTUID%></td>
+	<td><%=h team.GitHubID %></td>
+	<td><%=h team.APIGEE_ID %></td>
+	<td><%=h team.Foundry_ID %></td>
+  </tr>
+<% end %>
+

@@ -1,0 +1,17 @@
+<h1>Register here with your details if you are new user</h1>
+<%= form_for :blackflag, url: blackflag_index_path do |f| %>
+
+ <b> <p>    <%= f.label :EmpID%>   <%= f.text_field:EmpID %>  </p>
+  <p>    <%= f.label :Name %>    <%= f.text_field :Name %>  </p>
+  <p>    <%= f.label :ATTUID %>    <%= f.text_field :ATTUID %>  </p>
+  <p>    <%= f.label :MailID %>    <%= f.text_field :MailID %>  </p>
+  <p>    <%= f.label :GitHubID %>    <%= f.text_field :GitHubID %>  </p>
+  <p>    <%= f.label :APIGEE_ID %>    <%= f.text_field :APIGEE_ID %>  </p>
+  <p>    <%= f.label :Foundry_ID %>    <%= f.text_field :Foundry_ID %>  </p>
+  <p>    <%= f.label :ContactNum %>    <%= f.text_field :ContactNum %>  </p>
+  <p>    <%= f.label :DOB %>    <%= f.text_field :DOB %>  </p>
+  <p>    <%= f.submit %>  </p></b>
+<% end %>
+<h1>Follow the Link to see existing user details</h1>
+ <%=link_to "Click here To View Existing User Details", 'show'%>
+

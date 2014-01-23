@@ -1,0 +1,2 @@
+module BlackflagHelper
+end

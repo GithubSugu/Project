@@ -1,0 +1,22 @@
+
+C:\Sites\proj>rake routes
+            Prefix Verb   URI Pattern                      Controller#Action
+   blackflag_index GET    /blackflag(.:format)             blackflag#index
+                   POST   /blackflag(.:format)             blackflag#create
+     new_blackflag GET    /blackflag/new(.:format)         blackflag#new
+    edit_blackflag GET    /blackflag/:id/edit(.:format)    blackflag#edit
+         blackflag GET    /blackflag/:id(.:format)         blackflag#show
+                   PATCH  /blackflag/:id(.:format)         blackflag#update
+                   PUT    /blackflag/:id(.:format)         blackflag#update
+                   DELETE /blackflag/:id(.:format)         blackflag#destroy
+existinguser_index GET    /existinguser(.:format)          existinguser#index
+                   POST   /existinguser(.:format)          existinguser#create
+  new_existinguser GET    /existinguser/new(.:format)      existinguser#new
+ edit_existinguser GET    /existinguser/:id/edit(.:format) existinguser#edit
+      existinguser GET    /existinguser/:id(.:format)      existinguser#show
+                   PATCH  /existinguser/:id(.:format)      existinguser#update
+                   PUT    /existinguser/:id(.:format)      existinguser#update
+                   DELETE /existinguser/:id(.:format)      existinguser#destroy
+              root GET    /                                blackflag#index
+
+C:\Sites\proj>

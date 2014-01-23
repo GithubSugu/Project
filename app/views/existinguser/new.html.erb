@@ -1,0 +1,7 @@
+
+<%= form_for :blackflag,url:existinguser_index_path do |f| %>
+<p>Existing users enter your employee ID</p>
+  <p>    <%= f.label :EmpID %>    <%= f.text_field :EmpID %>  </p>
+   <p>    <%= f.submit :Enter %>  </p>
+<% end %>
+<%=link_to "View_All_Details", 'show'%>
